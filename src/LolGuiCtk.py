@@ -127,7 +127,7 @@ class LolGuiCtk(customtkinter.CTk):
         self.tree.heading('Position', text='Position')
 
 
-        self.tree.place(x=410, y=50, width=810, height=280)
+        self.tree.place(x=520, y=50, width=1000, height=380)
         self.tree.bind('<ButtonRelease>', self.read_display_data)
 
         self.add_to_treeview()
